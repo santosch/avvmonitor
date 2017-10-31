@@ -1,0 +1,19 @@
+{
+  "name": "fahrplantafel",
+  "version": "1.0.0",
+  "description": "Displays upcoming traffic connections",
+  "dependencies": {
+    "node-sass": "*",
+    "sass-lint": "*",
+    "postcss": "*",
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node ./node_scripts/compileSass.js"
+  },
+  "author": "Sebastian Antosch",
+  "license": "MIT"
+}

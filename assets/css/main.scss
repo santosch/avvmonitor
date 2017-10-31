@@ -1,0 +1,41 @@
+
+
+$body-bg:                   #333;
+$body-color:                #DDD;
+$yellow:                    #e2af36;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+html, body {
+  min-height: 100%;
+  background-color: $body-bg;
+}
+
+h1 {
+  margin: 15px 0 0 0;
+}
+
+.station {
+  margin-top: 30px;
+  flex-basis: 100%;
+
+  .card-header {
+    position: relative;
+  }
+
+  .countdown-outer {
+    text-align: center;
+
+    .countdown {
+      font-size: 50px;
+      font-weight: bold;
+    }
+  }
+
+  .time {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+  }
+}
+

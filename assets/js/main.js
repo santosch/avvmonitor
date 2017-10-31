@@ -53,15 +53,15 @@
 
             self.fetch();
 
+            /**
+             * Sends the page to fullscreen
+             */
             self.enterFullscreen = function () {
                 var requestFullscreen =
                     document.documentElement.requestFullcreen ||
                     document.documentElement.mozRequestFullScreen ||
                     document.documentElement.webkitRequestFullScreen;
-                console.log('call');
-                // document.documentElement.mozRequestFullScreen()
                 requestFullscreen.call(document.documentElement);
-                // requestFullscreen();
             }
 
         },
